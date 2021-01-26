@@ -13,7 +13,7 @@ public class LoginTest
 		System.setProperty("webdriver.chrome.driver", "test\\resources\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		// open login page
+		// open login page (add https)
 		driver.get("https://the-internet.herokuapp.com/login");
 		
 		// set window size 
