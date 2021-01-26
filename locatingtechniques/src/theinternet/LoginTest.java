@@ -2,7 +2,7 @@ package theinternet;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest
 {
@@ -10,8 +10,8 @@ public class LoginTest
 	public static void main(String[] args) throws InterruptedException
 	{
 		System.out.println("Testing login with Firefox and Selenium");
-		System.setProperty("webdriver.gecko.driver", "test\\resources\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "test\\resources\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		
 		// open login page
 		driver.get("http://the-internet.herokuapp.com/login");
