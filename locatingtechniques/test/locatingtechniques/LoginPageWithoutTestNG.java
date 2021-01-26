@@ -27,7 +27,7 @@ public class LoginPageWithoutTestNG {
 		/*
 		 * get() method gets the url specified as a parameter.
 		 */
-		driver.get("http://the-internet.herokuapp.com/login");
+		driver.get("https://the-internet.herokuapp.com/login");
 
 		/*
 		 * findElement in WebDriver returns the WebElement. The parameter passed

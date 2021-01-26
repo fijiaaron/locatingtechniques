@@ -83,7 +83,7 @@ public class LoginPageWithTestNG {
 		System.setProperty("webdriver.gecko.driver",
 				"test\\resources\\geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.get("http://the-internet.herokuapp.com/login");		
+		driver.get("https://the-internet.herokuapp.com/login");		
   }
 
   @AfterMethod

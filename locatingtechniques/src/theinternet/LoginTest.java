@@ -14,7 +14,7 @@ public class LoginTest
 		WebDriver driver = new ChromeDriver();
 		
 		// open login page
-		driver.get("http://the-internet.herokuapp.com/login");
+		driver.get("https://the-internet.herokuapp.com/login");
 		
 		// set window size 
 		driver.manage().window().maximize();
